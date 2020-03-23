@@ -28,8 +28,8 @@ C’est pourquoi, dans un premier temps, nous nous pencherons précisément sur 
 </p>
 
 ## Sommaire
-- [Enjeu de l’annotation des données](./rasterization.md).
-- [Principe de l’apprentissage semi-supervisé](./raytracing.md).
-- [Exemple d'application par des équipes de recherche](./rt_denoising.md).
+- [Enjeu de l’annotation des données](./Enjeu_annoation.md).
+- [Principe de l’apprentissage semi-supervisé](./principe.md).
+- [Exemple d'application par des équipes de recherche](./application.md).
 
 - <a href="https://daniel-dht.github.io/VeilleECL/rtx.html#destinationLinkName">Futur du Ray Tracing temps réel </a>
