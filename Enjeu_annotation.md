@@ -12,10 +12,12 @@ description: default
 
 <p style='text-align: justify;'> 
 L’étiquetage de données est typiquement utilisé dans les problèmes suivants :
-- Classification d’image
--Reconnaissance vocale et reconnaissance de texte écrit
--	Analyse de sentiments
--	Pertinence et personnalisation de contenu
+  <ul>
+<li>Classification d’image</li>
+<li>Reconnaissance vocale et reconnaissance de texte écrit</li>
+<li>Analyse de sentiments</li>
+<li>Pertinence et personnalisation de contenu</li>
+</ul>
 
 </p
 <p style='text-align: justify;'> 
