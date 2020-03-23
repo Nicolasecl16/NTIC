@@ -21,10 +21,10 @@ C’est pourquoi, dans un premier temps, nous nous pencherons précisément sur 
 
 </p>
 <p style='text-align: justify;'> 
-  Avant de rentrer dans les détails techniques, commençons par analyser brièvement la rastérisation, ses atouts et ses limites et ainsi comprendre pourquoi le Ray-Tracing commence à entrer en jeu aujourd'hui.  
+Commençons donc par évaluer en quoi le secteur de l'étiquetage de données est un secteur clé du Machine Learning actuel, ce qui nous permettra de comprendre l'intérêt de l'utilisation de l'apprentissage semi-supervisé.
 </p>
 <p style='text-align: justify;'> 
-→ <a href="./rasterization.html"> Rastérisation </a>
+→ <a href="./Enjeu_annotation.html"> Enjeu de l'annotation des données </a>
 </p>
 
 ## Sommaire
@@ -32,4 +32,3 @@ C’est pourquoi, dans un premier temps, nous nous pencherons précisément sur 
 - [Principe de l’apprentissage semi-supervisé](./principe.md).
 - [Exemple d'application par des équipes de recherche](./application.md).
 
-- <a href="https://daniel-dht.github.io/VeilleECL/rtx.html#destinationLinkName">Futur du Ray Tracing temps réel </a>
