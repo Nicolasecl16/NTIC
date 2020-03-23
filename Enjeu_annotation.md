@@ -6,9 +6,9 @@ description: default
 
 [Retour sommaire](./)
 
-## Enjeu de l’annotation des données
+# Enjeu de l’annotation des données
 
-#Intérêt de l’étiquetage
+## Intérêt de l’étiquetage
 
 <p style='text-align: justify;'> 
 La rastérisation est utilisée depuis les années 90, presque tous les jeux que vous connaissez sont rendus grâce à elle.. Nous ne creuserons pas les détails techniques derrières le rendu par rasterisation. Nous allons simplement essayer d'analyser quelles sont ses points forts et faibles, et donc de comprendre ce qu'ajouterait aujourd'hui le Ray-Tracing dans l'industrie du jeu vidéo.
