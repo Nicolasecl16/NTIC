@@ -83,23 +83,23 @@ Jusqu’ici, on a considéré l’annotation de données uniquement dans l’opt
 C’est dans ces situations qu’interviennent les modérateurs de contenu. Un reportage récent de France 2 dévoile à quel point le fait de donner un sens à un contenu est encore réservé à une main d’œuvre humaine. En effet, ce reportage, intitulé « Au secours, mon patron est un algorithme », nous dévoile que Facebook sous-traite à Accenture la modération des contenus publiés sur le site.  (Accenture est une entreprise de services française).  Les modérateurs doivent faire le tri des publications sur Facebook, et sont donc exposés aux textes et images les plus choquantes que l’on peut imaginer. Ce travail ne peut être effectué à l’heure actuelle par des algorithmes et soulève des problématiques éthiques à l’annotation des données. En effet, l’usure morale et psychologique des employés effectuant ce type de travail n’est pas encore reconnu.
 </p>
 
-<iframe width="560" height="315" src="//embedftv-a.akamaihd.net/e2f5e656431c5472722291a91db58096" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<p align="center"><iframe width="560" height="315" src="//embedftv-a.akamaihd.net/e2f5e656431c5472722291a91db58096" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
 
 <h2 id="references">Références</h2>
 
 <p>
-  WIkipedia, Rasterisation, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
+  The Vital Edge, Data labeling for artificial intelligence in China, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
 </p>
 <p>
-  Microsoft, dirextX raytracing announce, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
+  Fortune, The human powered companies that make AI work, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
 </p>
 <p>
-  NVidia, BRIAN CAULFIELD,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
+  France 2 , Cash investigation : « Au secours, mon patron est un algorithme » ,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
 </p>
 <p>
-  WIkipedia, Rasterisation, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
+  Tech Republic, Is data labeling the new blue-collar job of the AI era?, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
 </p>
 <p>
-  WIkipedia, Rasterisation, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
+  Fortune, If data is the new oil, these companies are the new Baker Hughes, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
 </p>
 
