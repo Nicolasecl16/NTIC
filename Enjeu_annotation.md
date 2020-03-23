@@ -88,11 +88,18 @@ C’est dans ces situations qu’interviennent les modérateurs de contenu. Un r
 <h2 id="references">Références</h2>
 
 <p>
-  WIkipedia, Rasterisation, https://fr.wikipedia.org/wiki/Rast%C3%A9risation
+  WIkipedia, Rasterisation, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
 </p>
 <p>
-  Microsoft, dirextX raytracing announce, https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
+  Microsoft, dirextX raytracing announce, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
 </p>
 <p>
-  NVidia, BRIAN CAULFIELD, https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization/
+  NVidia, BRIAN CAULFIELD,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
 </p>
+<p>
+  WIkipedia, Rasterisation, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
+</p>
+<p>
+  WIkipedia, Rasterisation, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
+</p>
+
