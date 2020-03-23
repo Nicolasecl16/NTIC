@@ -11,7 +11,12 @@ description: default
 ## Intérêt de l’étiquetage
 
 <p style='text-align: justify;'> 
-La rastérisation est utilisée depuis les années 90, presque tous les jeux que vous connaissez sont rendus grâce à elle.. Nous ne creuserons pas les détails techniques derrières le rendu par rasterisation. Nous allons simplement essayer d'analyser quelles sont ses points forts et faibles, et donc de comprendre ce qu'ajouterait aujourd'hui le Ray-Tracing dans l'industrie du jeu vidéo.
+L’étiquetage de données est typiquement utilisé dans les problèmes suivants :
+- Classification d’image
+-Reconnaissance vocale et reconnaissance de texte écrit
+-	Analyse de sentiments
+-	Pertinence et personnalisation de contenu
+
 </p
 <p style='text-align: justify;'> 
 La rastérisation consiste à mapper uniquement les points de l'espace 3D visibles depuis la caméra sur le plan 2D qui constituera l'image finale. Le schéma ci-dessous a pour but de d'expliquer simplement les étapes clés.
