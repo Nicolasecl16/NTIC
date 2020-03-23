@@ -22,8 +22,14 @@ L’étiquetage de données est typiquement utilisé dans les problèmes suivant
 </p
 <p style='text-align: justify;'> 
 Les étiquettes peuvent se présenter sous la forme de délimitation autour des objets sur des images, d'un étiquetage visuel ou textuel des objets sur des photographies. Concernant  la reconnaissance vocale, il peut s’agir d’une transcription précise correspondant à un enregistrement audio.
+</p>
+</p
+<p style='text-align: justify;'> 
 L’ajout  d'étiquettes peut être un travail relativement peu qualifié (identifier les "chats" dans les vidéos) effectué par des milliers d'employés dans les centres d'externalisation traditionnels tels que l'Inde, la Roumanie ou les Philippines
 Ces tâches d'étiquetage peuvent également nécessiter une main d’œuvre très qualifiée dans d’autres cas. Par exemple, les entreprises de technologie médicale innovantes construisent des modèles d'apprentissage automatique qui peuvent identifier toutes sortes de problèmes sur les images médicales, tels que les caillots, les fractures, les tumeurs, les obstructions et autres problèmes. Pour construire ces modèles, il faut d'abord entraîner des algorithmes d'apprentissage automatique pour identifier ces problèmes dans les images. L’entraînement des modèles d'apprentissage machine nécessite de nombreuses données qui ont été étiquetées. Pour accomplir cette tâche d'étiquetage, il faut un certain niveau de connaissances sur la façon d'identifier un problème particulier et sur la façon de l'étiqueter de manière appropriée. Cette tâche n'est pas du ressort d'un individu pris au hasard. Cela nécessite une certaine expertise du domaine. En l’occurrence, il faudrait, dans ce cas précis, l’intervention de radiologues pour annoter correctement les données.
+</p>
+</p
+<p style='text-align: justify;'>
 On peut également imaginer des annotations nécessitant l’intervention de spécialistes juridiques. Par exemple si l’on veut entraîner des algorithmes  détectant des clauses de non-confidentialité dans un contrat.
 On constate donc que l’annotation des données recouvre des domaines très larges d’application
 
@@ -45,6 +51,24 @@ Selon une analyse de Cognilytica, plus de 80% du temps consacré aux projets en 
 </p>
 
 ## Le service en étiquetage de données, un secteur en pleine expansion
+</p
+<p style='text-align: justify;'>
+L’émergence de l’IA et son omniprésence dans nos vies sont souvent sujettes à de nombreuses réserves. Une crainte majeure concernant la généralisation de l’IA est que non seulement les emplois disparaissent, mais que cette disparition affecte de manière disproportionnée les travailleurs peu qualifiés. Cela signifierait que tous les emplois nouvellement créés aillent à une élite d'employés de technologie tels que les développeurs de logiciels, les chercheurs en IA et les experts en cybersécurité.
+Selon Guru Banavar, le chef de l'équipe d'IBM responsable de la création de Watson, l’une des IA les plus perfectionnées au monde, a déclaré récemment que ce ne sera pas nécessairement le cas.
+</p>  
+</p
+<p style='text-align: justify;'> 
+Banavar pense qu'il y aura "toutes sortes d'emplois disponibles" à l'ère de l'IA. Pour les travailleurs de tous les niveaux de compétences. Et pour les travailleurs moins qualifiés, l'informatique offre un nouveau champ de possibilités. 
+Selon Banavar, c’est l’étiquetage de données qui sera le nouveau métier ouvrier du numérique,  et déclare ainsi « labellisation is the new blue-collar job ». Il appuie les conclusions présentées dans le graphique précédent et affirme ainsi « Si vous regardez les travaux d'analyse compliqués que nous avons aujourd'hui, 70% de ce travail consiste probablement à organiser et à nettoyer les données ».
+</p>  
+</p
+<p style='text-align: justify;'>  
+Selon le rapport de Cognilytica, la demande de services d'étiquetage de données par des tiers passera de 1,7 milliard de dollars (USD) en 2019 à plus de 4,1 milliards de dollars en 2024. Il s'agit d'un marché important, très éloigné de ce que l’on imagine en tant que futur de l’IA.
+L'étiquetage des données pour l'apprentissage machine a donné naissance à une toute nouvelle industrie, et les sociétés qui se créent pour aider les entreprises à étiqueter leurs données font partie des investissements les plus populaires auprès des investisseurs en capital-risque qui espèrent tirer profit de la ruée vers l'or actuelle de l'I.A.
+</p>
+
+De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure.
+
 
 <h2 id="references">Références</h2>
 
