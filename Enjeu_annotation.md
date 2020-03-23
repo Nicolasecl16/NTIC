@@ -83,7 +83,7 @@ Jusqu’ici, on a considéré l’annotation de données uniquement dans l’opt
 C’est dans ces situations qu’interviennent les modérateurs de contenu. Un reportage récent de France 2 dévoile à quel point le fait de donner un sens à un contenu est encore réservé à une main d’œuvre humaine. En effet, ce reportage, intitulé « Au secours, mon patron est un algorithme », nous dévoile que Facebook sous-traite à Accenture la modération des contenus publiés sur le site.  (Accenture est une entreprise de services française).  Les modérateurs doivent faire le tri des publications sur Facebook, et sont donc exposés aux textes et images les plus choquantes que l’on peut imaginer. Ce travail ne peut être effectué à l’heure actuelle par des algorithmes et soulève des problématiques éthiques à l’annotation des données. En effet, l’usure morale et psychologique des employés effectuant ce type de travail n’est pas encore reconnu.
 </p>
 
-<p align="center"><iframe width="560" height="315" src="//embedftv-a.akamaihd.net/e2f5e656431c5472722291a91db58096" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
+<p align="center"><object width="560" height="315" src="//embedftv-a.akamaihd.net/e2f5e656431c5472722291a91db58096" ></object></p>
 
 <h2 id="references">Références</h2>
 
