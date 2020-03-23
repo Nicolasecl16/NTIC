@@ -67,7 +67,21 @@ Selon le rapport de Cognilytica, la demande de services d'étiquetage de donnée
 L'étiquetage des données pour l'apprentissage machine a donné naissance à une toute nouvelle industrie, et les sociétés qui se créent pour aider les entreprises à étiqueter leurs données font partie des investissements les plus populaires auprès des investisseurs en capital-risque qui espèrent tirer profit de la ruée vers l'or actuelle de l'I.A.
 </p>
 
-De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure.
+<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+</p
+<p style='text-align: justify;'>
+De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure, augurant un futur très prometteur pour le secteur. Ceci explique la comparaison précédente issue du journal Fortune (Baker Hughes étant une entreprise parapétrolière américaine aujourd’hui valorisée à plusieurs dizaines de milliards de dollars)
+Parmi ces entreprises, on peut citer  Labelbox, qui vient de lever 39 millions de dollars au cours de son second tour de financement.
+Labelbox est en concurrence avec un certain nombre d'autres sociétés d'étiquetage : Scale AI, une autre plateforme d'étiquetage de données de San Francisco qui a recueilli 122 millions de dollars depuis sa création il y a trois ans, ainsi que des sociétés spécialisées dans la gestion d'équipes d'étiqueteurs de données, comme Hive, Cloudfactory et Samasource.
+</p>
+
+## d.	Annotation de données et modération de contenus
+
+</p
+<p style='text-align: justify;'>
+Jusqu’ici, on a considéré l’annotation de données uniquement dans l’optique d’entraîner des algorithmes. Cependant, l’approche peut être différente : on emploie des humains pour catégoriser des données car les machines n’en sont pas capables.
+C’est dans ces situations qu’interviennent les modérateurs de contenu. Un reportage récent de France 2 dévoile à quel point le fait de donner un sens à un contenu est encore réservé à une main d’œuvre humaine. En effet, ce reportage, intitulé « Au secours, mon patron est un algorithme », nous dévoile que Facebook sous-traite à Accenture la modération des contenus publiés sur le site.  (Accenture est une entreprise de services française).  Les modérateurs doivent faire le tri des publications sur Facebook, et sont donc exposés aux textes et images les plus choquantes que l’on peut imaginer. Ce travail ne peut être effectué à l’heure actuelle par des algorithmes et soulève des problématiques éthiques à l’annotation des données. En effet, l’usure morale et psychologique des employés effectuant ce type de travail n’est pas encore reconnu.
+</p>
 
 
 <h2 id="references">Références</h2>
