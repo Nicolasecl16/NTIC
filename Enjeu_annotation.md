@@ -6,7 +6,7 @@ description: default
 
 [Retour sommaire](./)
 
-# Enjeu de l’annotation des données pq
+# Enjeu de l’annotation des données
 
 ## Intérêt de l’étiquetage
 
