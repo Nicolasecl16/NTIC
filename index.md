@@ -28,7 +28,7 @@ Commençons donc par évaluer en quoi le secteur de l'étiquetage de données es
 </p>
 
 ## Sommaire
-- [Enjeu de l’annotation des données](./Enjeu_annoation.md).
+- [Enjeu de l’annotation des données](./Enjeu_annotation.md).
 - [Principe de l’apprentissage semi-supervisé](./principe.md).
 - [Exemple d'application par des équipes de recherche](./application.md).
 
