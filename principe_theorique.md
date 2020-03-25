@@ -12,6 +12,7 @@ L’objectif de cette partie est de mettre en lumière le fonctionnement théori
 
 ## Contexte 
 <p style='text-align: justify;'> 
+  salut
 <math>
   <msqrt>
     <mn>2</mn>
@@ -60,71 +61,89 @@ Il existe de nombreux cas où des données non étiquetées peuvent aider à con
 La figure ci-dessous fournit une autre intuition quant à l'utilisation de données non étiquetées pour la classification. Nous considérons un problème de classification artificielle avec deux classes. Pour les deux classes, 100 échantillons sont tirés d'une distribution gaussienne bidimensionnelle avec des matrices de covariance identiques. L'ensemble de données étiquetées est ensuite construit en prélevant un échantillon de chaque classe. Tout algorithme d'apprentissage supervisé obtiendra très probablement comme limite de décision la ligne continue, qui est perpendiculaire au segment de ligne reliant les deux points de données étiquetés et qui la coupe au milieu. Cependant, ceci est assez loin de la limite de décision optimale. Comme le montre clairement cette figure, les clusters que nous pouvons déduire des données non étiquetées peuvent nous aider considérablement à placer la limite de décision : en supposant que les données proviennent de deux distributions gaussiennes, un simple algorithme d'apprentissage semi-supervisé peut déduire une limite de décision proche de l'optimum.
 </p>
 <p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
-
-
-## La main d’œuvre humaine omniprésente dans l’IA
-
 <p style='text-align: justify;'> 
-  La majorité du travail effectuée lors de la mise en place d’algorithmes d’intelligence artificielle est l’œuvre de l’homme. Plus précisément, les algorithmes supervisés dépendent de l’homme qui lui fournit des données étiquetés de qualité. Ces données sont ensuite utilisées lors de la phase d’apprentissage.
-Selon une analyse de Cognilytica, plus de 80% du temps consacré aux projets en IA consiste à préparer et étiqueter les données.
+  Légende
+Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
 </p>
 
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+## Dans quel cadre l'apprentissage semi-supervisé fonctionne-t-il ?
 
 <p style='text-align: justify;'> 
-  Selon un récent rapport de la société de recherche Cognilytica, plus de 35 entreprises fournissent actuellement de la main d’œuvre  pour ajouter des labels aux données afin d'alimenter les algorithmes d'apprentissage supervisé. Certaines de ces entreprises utilisent des approches générales d'étiquetage des données, tandis que d'autres font appel à leurs propres ressources humaines, gérées et formées, qui peuvent répondre à un large éventail de besoins généraux et spécifiques en matière d'étiquetage des données.  
+L'objectif premier de l'apprentissage semi-supervisé est d'exploiter des données non étiquetées pour la construction de meilleures procédures d'apprentissage. Il s'avère que ce n'est pas toujours facile, ni même possible. Comme mentionné précédemment, les données non étiquetées ne sont utiles que si elles contiennent des informations utiles pour la prédiction de l'étiquette qui ne sont pas contenues dans les seules données étiquetées ou qui ne peuvent pas en être extraites facilement. Pour appliquer en pratique une méthode d'apprentissage semi-supervisée, l'algorithme doit alors être capable d'extraire ces informations. Pour les ingénieurs et les chercheurs, cela soulève la question suivante : quand est-ce le cas ?
 </p>
-
-## Le service en étiquetage de données, un secteur en pleine expansion
-</p
+<p style='text-align: justify;'> 
+Malheureusement, il s'est avéré difficile de trouver une réponse pratique à cette question. Non seulement il est difficile de définir avec précision les conditions dans lesquelles un algorithme d'apprentissage semi-supervisé particulier peut fonctionner, mais il est aussi rarement simple d'évaluer dans quelle mesure ces conditions sont remplies. Comme c'est le cas pour les algorithmes d'apprentissage supervisé, aucune méthode n'a encore été découverte pour déterminer a priori quelle méthode d'apprentissage est la mieux adaptée à un problème particulier. De plus, il est impossible de garantir que l'introduction de données non étiquetées ne dégradera pas les performances. Une telle dégradation est particulièrement pertinente dans les scénarios où de bonnes performances peuvent être obtenues avec des classifieurs purement supervisés. Dans ces cas, la dégradation potentielle de la performance est beaucoup plus importante que le gain potentiel.
+</p>
 <p style='text-align: justify;'>
-L’émergence de l’IA et son omniprésence dans nos vies sont souvent sujettes à de nombreuses réserves. Une crainte majeure concernant la généralisation de l’IA est que non seulement les emplois disparaissent, mais que cette disparition affecte de manière disproportionnée les travailleurs peu qualifiés. Cela signifierait que tous les emplois nouvellement créés aillent à une élite d'employés de technologie tels que les développeurs de logiciels, les chercheurs en IA et les experts en cybersécurité.
-Selon Guru Banavar, le chef de l'équipe d'IBM responsable de la création de Watson, l’une des IA les plus perfectionnées au monde, a déclaré récemment que ce ne sera pas nécessairement le cas.
+Le principal enseignement tiré de ces observations est que l'apprentissage semi-supervisé ne doit pas être considéré comme un moyen garanti d'améliorer les performances de prévision par la simple introduction de données non étiquetées. Il devrait plutôt être considéré comme une autre direction dans le processus de recherche et de configuration d'un algorithme d'apprentissage pour la tâche à accomplir. Les procédures d'apprentissage semi-supervisées devraient faire partie de la série d'algorithmes dont l'utilisation est envisagée dans un scénario d'application particulier, et une combinaison d'analyse théorique  et d'évaluation empirique devrait être utilisée pour choisir une approche bien adaptée à la situation donnée.
 </p>  
-</p
+
+## Présentation des différentes méthodes algorithmiques pour l’apprentissage semi-supervisé
 <p style='text-align: justify;'> 
-Banavar pense qu'il y aura "toutes sortes d'emplois disponibles" à l'ère de l'IA. Pour les travailleurs de tous les niveaux de compétences. Et pour les travailleurs moins qualifiés, l'informatique offre un nouveau champ de possibilités. 
-Selon Banavar, c’est l’étiquetage de données qui sera le nouveau métier ouvrier du numérique,  et déclare ainsi « labellisation is the new blue-collar job ». Il appuie les conclusions présentées dans le graphique précédent et affirme ainsi « Si vous regardez les travaux d'analyse compliqués que nous avons aujourd'hui, 70% de ce travail consiste probablement à organiser et à nettoyer les données ».
+Au cours des deux dernières décennies, une grande variété d'algorithmes de classification semi-supervisée a été créée. Ces méthodes diffèrent par les hypothèses d'apprentissage semi-supervisées sur lesquelles elles se fondent, par la manière dont elles utilisent les données non étiquetées et par la façon dont elles se rapportent aux algorithmes supervisés. 
 </p>  
-</p
+<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
 <p style='text-align: justify;'>  
-Selon le rapport de Cognilytica, la demande de services d'étiquetage de données par des tiers passera de 1,7 milliard de dollars (USD) en 2019 à plus de 4,1 milliards de dollars en 2024. Il s'agit d'un marché important, très éloigné de ce que l’on imagine en tant que futur de l’IA.
-L'étiquetage des données pour l'apprentissage machine a donné naissance à une toute nouvelle industrie, et les sociétés qui se créent pour aider les entreprises à étiqueter leurs données font partie des investissements les plus populaires auprès des investisseurs en capital-risque qui espèrent tirer profit de la ruée vers l'or actuelle de l'I.A.
+Légende :Visualisation arborescente des méthodes de classification semi-supervisée. 
 </p>
-
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
-</p
 <p style='text-align: justify;'>
-De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure, augurant un futur très prometteur pour le secteur. Ceci explique la comparaison précédente issue du journal Fortune (Baker Hughes étant une entreprise parapétrolière américaine aujourd’hui valorisée à plusieurs dizaines de milliards de dollars)
-Parmi ces entreprises, on peut citer  Labelbox, qui vient de lever 39 millions de dollars au cours de son second tour de financement.
-Labelbox est en concurrence avec un certain nombre d'autres sociétés d'étiquetage : Scale AI, une autre plateforme d'étiquetage de données de San Francisco qui a recueilli 122 millions de dollars depuis sa création il y a trois ans, ainsi que des sociétés spécialisées dans la gestion d'équipes d'étiqueteurs de données, comme Hive, Cloudfactory et Samasource.
+Chaque feuille de l‘arbre correspond à un type d'approche spécifique pour intégrer des données non étiquetées dans les méthodes de classification. Dans la feuille correspondant aux méthodes transductives, ( méthodes à bases de graphes), les cases en pointillés représentent des phases distinctes du processus de classification, dont chacune présente une multitude de variations.
 </p>
-
-## d.	Annotation de données et modération de contenus
-
-</p
 <p style='text-align: justify;'>
-Jusqu’ici, on a considéré l’annotation de données uniquement dans l’optique d’entraîner des algorithmes. Cependant, l’approche peut être différente : on emploie également des humains pour catégoriser des données car les machines n’en sont pas capables.
-C’est dans ces situations qu’interviennent les modérateurs de contenu. Un reportage récent de France 2 dévoile à quel point le fait de donner un sens à un contenu est encore réservé à une main d’œuvre humaine. En effet, ce reportage, intitulé « Au secours, mon patron est un algorithme », nous dévoile que Facebook sous-traite à Accenture la modération des contenus publiés sur le site.  (Accenture est une entreprise de services française).  Les modérateurs doivent faire le tri des publications sur Facebook, et sont donc exposés aux textes et images les plus choquantes que l’on peut imaginer. Ce travail ne peut être effectué à l’heure actuelle par des algorithmes et soulève des problématiques éthiques à l’annotation des données. En effet, l’usure morale et psychologique des employés effectuant ce type de travail n’est pas encore reconnu.
+Au niveau le plus élevé, elle distingue les méthodes inductives et transductives, qui donnent lieu à des procédures d'optimisation distinctes : les premières tentent de trouver un modèle de classification, tandis que les secondes s'attachent uniquement à obtenir des prédictions étiquetées pour les points de données non étiquetés donnés. Au second niveau, l’arbre distingue les méthodes d'apprentissage semi-supervisées selon la manière lesquelles elles intègrent les données non étiquetées. Cette distinction donne naissance à trois classes distinctes de méthodes inductives, chacune d'entre elles étant liée aux classifieurs supervisés de manière différente.
 </p>
 
-<p align="center"><object width="560" height="315" src="//embedftv-a.akamaihd.net/e2f5e656431c5472722291a91db58096" ></object></p>
+### Méthodes inductives
+<p style='text-align: justify;'>
+Les méthodes inductives visent à construire un classifieur qui peut générer des prédictions pour n'importe quel objet dans l'espace d'entrée. Des données non étiquetées peuvent être utilisées lors de la phase d’apprentissage de ce classifieur, mais les prédictions pour de multiples nouveaux exemples, inédits, sont indépendantes les unes des autres une fois l’apprentissage terminé. Cela correspond à l'objectif des méthodes d'apprentissage supervisé : un modèle est construit pendant la phase d’apprentissage et peut ensuite être utilisé pour prédire les étiquettes de nouvelles données.
+</p>
+#### Méthodes de type “wrapper”
+<p style='text-align: justify;'>
+Une approche simple pour étendre les algorithmes supervisés existants au cadre semi-supervisé consiste à entraîner d'abord les classifieurs sur les données étiquetées, puis à utiliser les prédictions des classifieurs résultants pour générer des données étiquetées supplémentaires. Les classifieurs peuvent ensuite être entraîné à nouveau sur ces données pseudo-étiquetées en plus des données étiquetées existantes. Ces méthodes sont connues sous le nom de méthodes « wrapper » : les données non étiquetées sont pseudo-étiquetées, et un algorithme d'apprentissage purement supervisé, ignorant la distinction entre les données étiquetées à l'origine et les données pseudo-étiquetées, construit le classifieur inductif final. Une propriété clé des méthodes « wrapper» est que  la plupart d'entre elles peuvent être appliquées à n'importe quel algorithme d’apprentissage supervisé, permettant aux données non étiquetées d'être introduites de manière simple. 
+</p>
+#### Prétraitement non supervisé
+<p style='text-align: justify;'>
+Les méthodes de prétraitement non supervisées consistent à, soit extraire des caractéristiques utiles des données non étiquetées, soit préclasser les données, soit déterminer les paramètres initiaux d'une procédure d'apprentissage supervisée de manière non supervisée. Comme les méthodes wrapper, elles peuvent être utilisées avec n'importe quel classifieur supervisé. Cependant, contrairement aux méthodes wrapper, le classifieur supervisé n'est entraîné qu'avec des données étiquetées à l'origine. 
+</p>
+#### Méthodes intrinsèquement semi-supervisées
+<p style='text-align: justify;'>
+La dernière classe de méthodes inductives que nous considérons intègre directement des données non étiquetées dans la fonction d'optimisation de la méthode d'apprentissage. Beaucoup de ces méthodes sont des extensions directes des méthodes d'apprentissage supervisées au cadre semi-supervisé : elles étendent la fonction d’erreur du classifieur supervisé pour inclure des données non étiquetées. Les machines à vecteurs de support semi-supervisées (S3VM), par exemple, étendent les SVM supervisés en maximisant la marge non seulement sur les données étiquetées, mais aussi sur les données non étiquetées. Il existe des extensions intrinsèquement semi-supervisées de nombreuses approches d'apprentissage supervisé importantes, y compris SVM les processus gaussiens et les réseaux de neurones.
+</p>
+
+### Méthodes  transductives
+<p style='text-align: justify;'>
+Contrairement aux méthodes inductives, les méthodes transductives ne construisent pas un classifieur pour l'ensemble de l'espace d'entrée. Au contraire, leur pouvoir prédictif est limité aux objets qu'elles rencontrent exactement pendant la phase d'entraînement. Par conséquent, les méthodes transductives n'ont pas de phases d'entraînement et de test distinctes. Comme les méthodes d'apprentissage supervisé ne sont par définition pas fournies avec des données non étiquetées avant la phase de test, il n'existe pas d'analogie claire entre les algorithmes transductifs et l'apprentissage supervisé.
+</p>
+<p style='text-align: justify;'>
+Comme il n'existe pas de modèle de l'espace d'entrée chez les algorithmes d’apprentissage transductif, l'information doit être propagée par des connexions directes entre les points de données. Cette observation donne naturellement naissance à une approche basée sur un graphe pour les méthodes transductives : si un graphe peut être défini dans lequel des données similaires sont connectés, l'information peut alors être propagée le long des bords de ce graphe.
+</p>
+<p style='text-align: justify;'>
+Les méthodes transductives à base de graphes comportent généralement trois étapes : la construction du graphe, la pondération du graphe et l'inférence. Dans la première étape, l'ensemble des objets, X, est utilisé pour construire un graphe où chaque nœud représente un point de données et où des points de données similaires par paires sont reliés par un bord. Dans la deuxième étape, ces arêtes sont pondérées pour représenter l'étendue de la similarité par paire entre les points de données respectifs. Dans la troisième étape, le graphe est utilisé pour attribuer des étiquettes aux points de données non étiquetés.
+</p>
+## Proximité avec le mode d'apprentissage humain 
+<p style='text-align: justify;'>
+La façon dont apprend l’homme peut être considérée comme des cas d'apprentissage semi-supervisé. Une grande partie de l'apprentissage des concepts humains implique une petite quantité d'instruction directe (par exemple, l'étiquetage des objets par les parents pendant l'enfance) combinée à une grande quantité d'expérience non étiquetée (par exemple, l'observation des objets sans les nommer ou les compter, ou du moins sans retour d'information).
+</p>
+<p style='text-align: justify;'>
+Les nourrissons humains sont sensibles à la structure des catégories naturelles non étiquetées telles que les images de chiens et de chats ou les visages masculins et féminins. Les nourrissons et les enfants prennent en compte non seulement les exemples non étiquetés, mais aussi le processus d'échantillonnage dont découlent les exemples étiquetés
+</p>
+
+<p style='text-align: justify;'>
+On a donc vu en quoi l'apprentissage semi-supervisé s'impose comme une méthode algorithmique essentielle, notamment en vue de limiter la quantité de données à étiqueter. Les bases théoriques que l'on a pu poser au cours de cette section vont nous permettre de comprendre certaines applications actuelles dans des secteurs de pointe.
+</p>
+<p style='text-align: justify;'> 
+→ <a href="./application.html"> Application par des équipes de recherche </a>
+</p>
 
 <h2 id="references">Références</h2>
 
 <p>
-  The Vital Edge, Data labeling for artificial intelligence in China, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
+van Engelen, J.E., Hoos, H.H., A survey on semi-supervised learning. Mach Learn, https://link.springer.com/article/10.1007/s10994-019-05855-6
 </p>
 <p>
-  Fortune, The human powered companies that make AI work, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
+Wikipedia, Semi-supervised learning, https://en.wikipedia.org/wiki/Semi-supervised_learning
 </p>
 <p>
-  France 2 , Cash investigation : « Au secours, mon patron est un algorithme » ,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
-</p>
-<p>
-  Tech Republic, Is data labeling the new blue-collar job of the AI era?, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
-</p>
-<p>
-  Fortune, If data is the new oil, these companies are the new Baker Hughes, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
+Le Monde Informatique, L'apprentissage semi-supervisé trouve sa place, https://www.lemondeinformatique.fr/les-dossiers/lire-l-apprentissage-semi-supervise-trouve-sa-place-1031.html
 </p>
 
