@@ -73,11 +73,11 @@ Labelbox est en concurrence avec un certain nombre d'autres sociétés d'étique
 Jusqu’ici, on a considéré l’annotation de données uniquement dans l’optique d’entraîner des algorithmes. Cependant, l’approche peut être différente : on emploie également des humains pour catégoriser des données car les machines n’en sont pas capables.
 C’est dans ces situations qu’interviennent les modérateurs de contenu. Un reportage récent de France 2 dévoile à quel point le fait de donner un sens à un contenu est encore réservé à une main d’œuvre humaine. En effet, ce reportage, intitulé « Au secours, mon patron est un algorithme », nous dévoile que Facebook sous-traite à Accenture la modération des contenus publiés sur le site.  (Accenture est une entreprise de services française).  Les modérateurs doivent faire le tri des publications sur Facebook, et sont donc exposés aux textes et images les plus choquantes que l’on peut imaginer. Ce travail ne peut être effectué à l’heure actuelle par des algorithmes et soulève des problématiques éthiques à l’annotation des données. En effet, l’usure morale et psychologique des employés effectuant ce type de travail n’est pas encore reconnu.
 </p>
-
+<p style='text-align: justify;'>
 <object type='application/x-shockwave-flash' style='width:500px; height:300px;' data='https://www.youtube.com/v/kv8RFAphI4Q'>
 	<param name='movie' value='https://www.youtube.com/v/kv8RFAphI4Q' />
 </object>
-
+</p>
 	
 <h2 id="references">Références</h2>
 
