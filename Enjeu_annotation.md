@@ -88,7 +88,7 @@ The Vital Edge, Data labeling for artificial intelligence in China, https://www.
 Fortune, The human powered companies that make AI work, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
 </p>
 <p>
-France 2 , Cash investigation : « Au secours, mon patron est un algorithme » ,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
+France 2 , Cash investigation : « Au secours, mon patron est un algorithme », https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
 </p>
 <p>
 Tech Republic, Is data labeling the new blue-collar job of the AI era?, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
