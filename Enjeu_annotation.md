@@ -81,6 +81,13 @@ C’est dans ces situations qu’interviennent les modérateurs de contenu. Un r
 	
 <h2 id="references">Références</h2>
 
+<p style='text-align: justify;'> 
+Passons maintenant à une explication théorique détaillée de l'apprentissage semi-supervisé afin de comprendre son lien étroit avec l'annotation des données.  
+</p>
+<p style='text-align: justify;'> 
+→ <a href="./principe_theorique.html"> Principes théoriques de l'apprentissage semi-supervisé </a>
+</p>
+
 <p>
 The Vital Edge, Data labeling for artificial intelligence in China, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
 </p>
