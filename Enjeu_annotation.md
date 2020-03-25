@@ -77,7 +77,7 @@ C’est dans ces situations qu’interviennent les modérateurs de contenu. Un r
 <object type='application/x-shockwave-flash' style='width:500px; height:300px;' data='https://www.youtube.com/v/kv8RFAphI4Q'>
 	<param name='movie' value='https://www.youtube.com/v/kv8RFAphI4Q' />
 </object>
-<div style='font-size: 0.8em'><a href='http://www.scriptgenerator.net/'>
+
 	
 <h2 id="references">Références</h2>
 
