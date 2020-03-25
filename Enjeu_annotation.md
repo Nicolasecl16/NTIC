@@ -10,15 +10,14 @@ description: default
 
 ## Intérêt de l’étiquetage
 
-<p style='text-align: justify;'> 
 L’étiquetage de données est typiquement utilisé dans les problèmes suivants :
-  <ul>
+ <ul>
 <li>Classification d’image</li>
 <li>Reconnaissance vocale et reconnaissance de texte écrit</li>
 <li>Analyse de sentiments</li>
 <li>Pertinence et personnalisation de contenu</li>
 </ul>
-</p>
+
 <p style='text-align: justify;'> 
 Les étiquettes peuvent se présenter sous la forme de délimitation autour des objets sur des images, d'un étiquetage visuel ou textuel des objets sur des photographies. Concernant  la reconnaissance vocale, il peut s’agir d’une transcription précise correspondant à un enregistrement audio.
 </p>
