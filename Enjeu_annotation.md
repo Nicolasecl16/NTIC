@@ -82,18 +82,18 @@ C’est dans ces situations qu’interviennent les modérateurs de contenu. Un r
 <h2 id="references">Références</h2>
 
 <p>
-  The Vital Edge, Data labeling for artificial intelligence in China, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
+The Vital Edge, Data labeling for artificial intelligence in China, https://www.the-vital-edge.com/data-labeling-for-artificial-intelligence-in-china/
 </p>
 <p>
-  Fortune, The human powered companies that make AI work, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
+Fortune, The human powered companies that make AI work, https://www.forbes.com/sites/cognitiveworld/2020/02/02/the-human-powered-companies-that-make-ai-work/#34cbd0f3670c
 </p>
 <p>
-  France 2 , Cash investigation : « Au secours, mon patron est un algorithme » ,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
+France 2 , Cash investigation : « Au secours, mon patron est un algorithme » ,https://www.francetvinfo.fr/economie/emploi/metiers/video-cash-investigation-dans-la-peau-dun-moderateur-de-contenu-facebook_3623293.html
 </p>
 <p>
-  Tech Republic, Is data labeling the new blue-collar job of the AI era?, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
+Tech Republic, Is data labeling the new blue-collar job of the AI era?, https://www.techrepublic.com/article/is-data-labeling-the-new-blue-collar-job-of-the-ai-era/
 </p>
 <p>
-  Fortune, If data is the new oil, these companies are the new Baker Hughes, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
+Fortune, If data is the new oil, these companies are the new Baker Hughes, https://fortune.com/2020/02/04/artificial-intelligence-data-labeling-labelbox/
 </p>
 
