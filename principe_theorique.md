@@ -11,12 +11,13 @@ description: default
 L’objectif de cette partie est de mettre en lumière le fonctionnement théorique de l’apprentissage automatique et la place qu’il occupe dans le monde actuel du machine learning. L'apprentissage semi-supervisé est la branche de l'apprentissage machine qui consiste à utiliser des données étiquetées et non étiquetées pour effectuer certaines tâches d'apprentissage. Conceptuellement situé entre l'apprentissage supervisé et non supervisé, il permet d'exploiter des grandes quantités de données non étiquetées avec des ensembles de données étiquetées généralement plus petits. Ces dernières années, la recherche dans ce domaine a suivi les tendances générales observées dans l'apprentissage machine, avec une grande attention portée aux modèles basés sur les réseaux neuronaux. La littérature sur le sujet a également augmenté en volume et en portée, englobant maintenant un large spectre de théorie, d'algorithmes et d'applications.
 
 ## Contexte 
+<p style='text-align: justify;'> 
 <math>
   <msqrt>
     <mn>2</mn>
   </msqrt>
 </math>
-
+</p>
 <p style='text-align: justify;'> 
 On a pu voir dans la partie précédente à quel point l’annotation des données revêt une importance stratégique et économique dans le monde de l’IA. Les algorithmes semi-supervisés sont donc d’un grand intérêt dans l’optique d’annoter le mois de données possibles puisque seul une partie de l’ensemble d’entraînement est annoté. On peut également améliorer significativement un algorithme supervisé déjà existant, simplement en ajoutant des données non étiquetés à l’ensemble d’apprentissage. L'apprentissage semi-supervisé est récemment devenu plus populaire et plus pertinent sur le plan pratique en raison de la variété des problèmes pour lesquels de grandes quantités de données non étiquetées sont disponibles, par exemple du texte sur des sites web, des séquences de protéines ou des images
 Ces caractéristiques expliquent certainement la résurgence dans la littérature des techniques d’apprentissage semi-supervisé. L’apprentissage semi-supervisé est ainsi mentionné  parmi les 10 tendances technologiques de 2020 identifiées par le monde informatique.
