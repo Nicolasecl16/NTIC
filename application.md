@@ -31,7 +31,8 @@ Les résultats donnent une précision de 94,93 % sur CIFAR-10 avec 250 étiquett
       Tout d'abord, une version faiblement augmentée d'une image non étiquetée (en haut) est introduite dans le modèle pour obtenir ses prédictions (encadré rouge). Lorsque le modèle attribue une probabilité à une classe quelconque qui se situe au-dessus d'un seuil (ligne pointillée), la prédiction est convertie en pseudo-étiquette à un seul point. Ensuite, l’algorithme calcule la "prédiction du modèle pour une version fortement augmentée de la même image" (en bas). Le modèle a été conçu pour que la prédiction de la version fortement augmentée soit comparée à la pseudo-étiquette par une fonction  d'entropie croisée standard. 
     </figcaption>
 </figure>
-  
+</p>
+
 ## Utilisation de l’approche semi-supervisée pour la détection du cancer du sein, Université d'Annaba, octobre 2014 
 <p style='text-align: justify;'> 
 Cette article de recherche écrit par des membres du département d’informatique d’Annaba, se penche sur l’utilisation d’algorithmes semi-supervisés pour la détection de tumeur mammaire. Le cancer du sein constitue dans le monde la cause de décès par cancer la plus fréquente chez la femme. En Algérie, le cancer du sein représente près de 50 % des cancers gynécologiques chez la femme. C’est donc une thématique de recherche prioritaire en terme de santé publique.
