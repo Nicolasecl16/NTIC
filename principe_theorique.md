@@ -111,7 +111,49 @@ est constitué d'un objet
 </math> est un réel dans les problèmes de régression et une classe dans les problèmes de classification. Sur la base d'un ensemble de ces points de données, généralement appelés données d’apprentissage, les méthodes d'apprentissage supervisé tentent de déduire une fonction qui peut déterminer avec succès l'étiquette <math><mi>y</mi></math> d'une entrée inédite <math><mi>x</mi></math>.
 </p>
 <p style='text-align: justify;'> 
-Cependant, dans de nombreux problèmes de classification du monde réel, nous avons également accès à une collection de points de données u, <math> DU=((x<msup>i</msup>,y<msub>i</msub>))<msub>li=1…u</msub> </math>, dont les étiquettes sont inconnues. Par exemple, les points de données pour lesquels nous voulons faire des prédictions, généralement appelés données de test, ne sont pas étiquetés par définition. Les méthodes de classification semi-supervisées tentent d'utiliser des points de données non étiquetés pour construire un algorithme d’apprentissage dont la performance dépasse celle des algorithmes supervisés obtenus en utilisant uniquement les données étiquetées. Dans la suite de cette partie, nous appellerons XL et XU les entrées pour les échantillons respectivement étiquetés et non étiquetés.
+Cependant, dans de nombreux problèmes de classification du monde réel, nous avons également accès à un ensemble de <math><mi>u</mi></math> éléments, 
+<math> 
+  <mrow> 
+    <mi>DU</mi> 
+    <mo>=</mo> 
+    </mrow>
+</math>
+<math>
+   {
+  <mrow>
+  <msub>
+    <mi>x</mi>
+    <mi>i</mi>
+  </msub>
+  </mrow>
+</math>
+,
+<math>
+  <mrow>
+     <mi>i</mi>
+        <mo>=</mo>
+        <mi>l+1...l+u</mi>
+  </mrow> 
+  }
+ </math>
+, dont les étiquettes sont inconnues. Par exemple, les points de données pour lesquels nous voulons faire des prédictions, généralement appelés données de test, ne sont pas étiquetés par définition. Les méthodes de classification semi-supervisées tentent d'utiliser des points de données non étiquetés pour construire un algorithme d’apprentissage dont la performance dépasse celle des algorithmes supervisés obtenus en utilisant uniquement les données étiquetées. Dans la suite de cette partie, nous appellerons 
+<math>
+  <mrow>
+  <msub>
+    <mi>X</mi>
+    <mi>L</mi> 
+  </msub>  
+  </mrow> 
+</math> et 
+<math>
+  <mrow>
+  <msub>
+    <mi>X</mi>
+    <mi>U</mi> 
+  </msub>  
+  </mrow> 
+</math> les entrées pour les échantillons respectivement étiquetés et non étiquetés.
+
 </p>
 <p style='text-align: justify;'> 
 Il existe de nombreux cas où des données non étiquetées peuvent aider à construire un classifieur. Prenons, par exemple, le problème de la classification des documents, où l'on souhaite attribuer des sujets à une collection de documents textuels (des articles de presse). En supposant que nos documents soient représentés par l'ensemble des mots qui y figurent, on pourrait former un simple classifieur supervisé qui, par exemple, apprendrait à reconnaître que les documents contenant le mot "neutron" concernent généralement la physique. Ce classifieur pourrait bien fonctionner sur des documents contenant des termes qu'il a vus dans les données d'entraînement, mais il échouera lorsqu'un document ne contient pas de mots qui apparaissent dans l'ensemble d'entraînement. Par exemple, si nous rencontrons un document de physique sur les accélérateurs de particules qui ne contient pas le mot "neutron", le classifieur est incapable de le reconnaître comme un document concernant la physique. C'est là qu'intervient l'apprentissage semi-supervisé. Si nous considérons les données non étiquetées, il peut y avoir des documents qui relient le mot "neutron" à l'expression "accélérateur de particules". Par exemple, le mot "neutron" apparaît souvent dans un document qui contient également le mot "quark". En outre, le mot "quark" apparaît régulièrement avec l'expression "accélérateur de particules", ce qui guide les classifieurs dans la classification de ces documents comme étant également liés à la physique, bien qu'ils n'aient jamais vu l'expression "accélérateur de particules" dans les données étiquetées.
