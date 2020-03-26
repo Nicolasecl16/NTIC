@@ -93,18 +93,22 @@ Au niveau le plus élevé, elle distingue les méthodes inductives et transducti
 <p style='text-align: justify;'>
 Les méthodes inductives visent à construire un classifieur qui peut générer des prédictions pour n'importe quel objet dans l'espace d'entrée. Des données non étiquetées peuvent être utilisées lors de la phase d’apprentissage de ce classifieur, mais les prédictions pour de multiples nouveaux exemples, inédits, sont indépendantes les unes des autres une fois l’apprentissage terminé. Cela correspond à l'objectif des méthodes d'apprentissage supervisé : un modèle est construit pendant la phase d’apprentissage et peut ensuite être utilisé pour prédire les étiquettes de nouvelles données.
 </p>
+
 #### Méthodes de type “wrapper”
 <p style='text-align: justify;'>
 Une approche simple pour étendre les algorithmes supervisés existants au cadre semi-supervisé consiste à entraîner d'abord les classifieurs sur les données étiquetées, puis à utiliser les prédictions des classifieurs résultants pour générer des données étiquetées supplémentaires. Les classifieurs peuvent ensuite être entraîné à nouveau sur ces données pseudo-étiquetées en plus des données étiquetées existantes. Ces méthodes sont connues sous le nom de méthodes « wrapper » : les données non étiquetées sont pseudo-étiquetées, et un algorithme d'apprentissage purement supervisé, ignorant la distinction entre les données étiquetées à l'origine et les données pseudo-étiquetées, construit le classifieur inductif final. Une propriété clé des méthodes « wrapper» est que  la plupart d'entre elles peuvent être appliquées à n'importe quel algorithme d’apprentissage supervisé, permettant aux données non étiquetées d'être introduites de manière simple. 
 </p>
+
 #### Prétraitement non supervisé
 <p style='text-align: justify;'>
 Les méthodes de prétraitement non supervisées consistent à, soit extraire des caractéristiques utiles des données non étiquetées, soit préclasser les données, soit déterminer les paramètres initiaux d'une procédure d'apprentissage supervisée de manière non supervisée. Comme les méthodes wrapper, elles peuvent être utilisées avec n'importe quel classifieur supervisé. Cependant, contrairement aux méthodes wrapper, le classifieur supervisé n'est entraîné qu'avec des données étiquetées à l'origine. 
 </p>
+
 #### Méthodes intrinsèquement semi-supervisées
 <p style='text-align: justify;'>
 La dernière classe de méthodes inductives que nous considérons intègre directement des données non étiquetées dans la fonction d'optimisation de la méthode d'apprentissage. Beaucoup de ces méthodes sont des extensions directes des méthodes d'apprentissage supervisées au cadre semi-supervisé : elles étendent la fonction d’erreur du classifieur supervisé pour inclure des données non étiquetées. Les machines à vecteurs de support semi-supervisées (S3VM), par exemple, étendent les SVM supervisés en maximisant la marge non seulement sur les données étiquetées, mais aussi sur les données non étiquetées. Il existe des extensions intrinsèquement semi-supervisées de nombreuses approches d'apprentissage supervisé importantes, y compris SVM les processus gaussiens et les réseaux de neurones.
 </p>
+
 ### Méthodes  transductives
 <p style='text-align: justify;'>
 Contrairement aux méthodes inductives, les méthodes transductives ne construisent pas un classifieur pour l'ensemble de l'espace d'entrée. Au contraire, leur pouvoir prédictif est limité aux objets qu'elles rencontrent exactement pendant la phase d'entraînement. Par conséquent, les méthodes transductives n'ont pas de phases d'entraînement et de test distinctes. Comme les méthodes d'apprentissage supervisé ne sont par définition pas fournies avec des données non étiquetées avant la phase de test, il n'existe pas d'analogie claire entre les algorithmes transductifs et l'apprentissage supervisé.
@@ -115,6 +119,7 @@ Comme il n'existe pas de modèle de l'espace d'entrée chez les algorithmes d’
 <p style='text-align: justify;'>
 Les méthodes transductives à base de graphes comportent généralement trois étapes : la construction du graphe, la pondération du graphe et l'inférence. Dans la première étape, l'ensemble des objets, X, est utilisé pour construire un graphe où chaque nœud représente un point de données et où des points de données similaires par paires sont reliés par un bord. Dans la deuxième étape, ces arêtes sont pondérées pour représenter l'étendue de la similarité par paire entre les points de données respectifs. Dans la troisième étape, le graphe est utilisé pour attribuer des étiquettes aux points de données non étiquetés.
 </p>
+
 ## Proximité avec le mode d'apprentissage humain 
 <p style='text-align: justify;'>
 La façon dont apprend l’homme peut être considérée comme des cas d'apprentissage semi-supervisé. Une grande partie de l'apprentissage des concepts humains implique une petite quantité d'instruction directe (par exemple, l'étiquetage des objets par les parents pendant l'enfance) combinée à une grande quantité d'expérience non étiquetée (par exemple, l'observation des objets sans les nommer ou les compter, ou du moins sans retour d'information).
