@@ -35,25 +35,14 @@ Dans les problèmes d'apprentissage supervisé traditionnels, on nous présente 
   <mrow> 
     <mi>DL</mi> 
     <mo>=</mo> 
-    <msub> 
-      <mrow>
-        <mi>((xi,yi))</mi> 
-        <msub>
-          <mi>l</mi>
-          <ms>i</ms>
-        </msub>
-        <mo>=</mo>
-        <mi>1...l</mi>
-      </ms> 
-    </msub>
-  </mrow> 
- </math>
-Chaque point de données (
+    </mrow>
+</math>
 <math>
+   {(
   <mrow>
   <msub>
     <mi>x</mi>
-    <ms>i</ms>
+    <mi>i</mi>
   </msub>
   </mrow>
 </math>
@@ -62,11 +51,64 @@ Chaque point de données (
   <mrow>
   <msub>
     <mi>y</mi>
-    <ms>i</ms> 
+    <mi>i</mi> 
+  </msub>  
+  </mrow> 
+  ),
+</math>
+<math>
+  <mrow>
+     <mi>i</mi>
+        <mo>=</mo>
+        <mi>1...l</mi>
+  </mrow> 
+  }
+ </math>
+Chaque point de données
+<math>
+   (
+  <mrow>
+  <msub>
+    <mi>x</mi>
+    <mi>i</mi>
+  </msub>
+  </mrow>
+</math>
+,
+<math>
+  <mrow>
+  <msub>
+    <mi>y</mi>
+    <mi>i</mi> 
+  </msub>  
+  </mrow> 
+  ) 
+</math>
+est constitué d'un objet  
+<math>
+<mrow>
+  <msub>
+    <mi>x</mi>
+    <mi>i</mi> 
   </msub>  
   </mrow> 
 </math>
-) est constitué d'un objet xi∈X provenant d'un espace d'entrée X donné, et a une étiquette associée yi, où yi est un réel dans les problèmes de régression et une classe dans les problèmes de classification. Sur la base d'un ensemble de ces points de données, généralement appelés données d’apprentissage, les méthodes d'apprentissage supervisé tentent de déduire une fonction qui peut déterminer avec succès l'étiquette y d'une entrée inédite x .
+  ∈<math><mi>X</mi></math> provenant d'un espace d'entrée <math><mi>X</mi></math> donné, et a une étiquette associée   
+<math>
+  <mrow>
+  <msub>
+    <mi>y</mi>
+    <mi>i</mi> 
+  </msub>  
+  </mrow> 
+</math>, où <math>
+  <mrow>
+  <msub>
+    <mi>y</mi>
+    <mi>i</mi> 
+  </msub>  
+  </mrow> 
+</math> est un réel dans les problèmes de régression et une classe dans les problèmes de classification. Sur la base d'un ensemble de ces points de données, généralement appelés données d’apprentissage, les méthodes d'apprentissage supervisé tentent de déduire une fonction qui peut déterminer avec succès l'étiquette <math><mi>y</mi></math> d'une entrée inédite <math><mi>x</mi></math>.
 </p>
 <p style='text-align: justify;'> 
 Cependant, dans de nombreux problèmes de classification du monde réel, nous avons également accès à une collection de points de données u, <math> DU=((x<msup>i</msup>,y<msub>i</msub>))<msub>li=1…u</msub> </math>, dont les étiquettes sont inconnues. Par exemple, les points de données pour lesquels nous voulons faire des prédictions, généralement appelés données de test, ne sont pas étiquetés par définition. Les méthodes de classification semi-supervisées tentent d'utiliser des points de données non étiquetés pour construire un algorithme d’apprentissage dont la performance dépasse celle des algorithmes supervisés obtenus en utilisant uniquement les données étiquetées. Dans la suite de cette partie, nous appellerons XL et XU les entrées pour les échantillons respectivement étiquetés et non étiquetés.
