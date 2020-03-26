@@ -37,8 +37,7 @@ Dans les problèmes d'apprentissage supervisé traditionnels, on nous présente 
     <mo>=</mo> 
     <msub> 
       <mrow>
-        <msub>((xi,yi))</mi> 
-      <ms>
+        <mi>((xi,yi))</mi> 
         <msub>
           <mi>l</mi>
           <ms>i</ms>
