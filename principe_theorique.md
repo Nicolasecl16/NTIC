@@ -60,7 +60,7 @@ La figure ci-dessous fournit une autre intuition quant à l'utilisation de donn�
   </figcaption>
 </figure>
 </p>
-<p style='text-align: justify;'> 
+
 
 ## Dans quel cadre l'apprentissage semi-supervisé fonctionne-t-il ?
 
