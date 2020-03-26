@@ -8,8 +8,6 @@ description: default
 
 Ce site a pour but de partager la synthèse de la veille réalisée dans le cadre du cours "Nouvelles technologies de l'information et de la communication" à l'Ecole Centrale de Lyon. Cette veille a porté sur l'apprentissage semi-supervisé, son principe de fonctionnement, ses domaines d'application ainsi que les enjeux qui en découlent.
 
-![Image](img_intro.png)
-
 ## Introduction 
 
 <p style='text-align: justify;'> 
