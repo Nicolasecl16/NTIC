@@ -31,7 +31,6 @@ Les résultats donnent une précision de 94,93 % sur CIFAR-10 avec 250 étiquett
     </figcaption>
 </figure>
 
-
 ## Utilisation de l’approche semi-supervisée pour la détection du cancer du sein, Université d'Annaba, octobre 2014 
 <p style='text-align: justify;'> 
 Cette article de recherche écrit par des membres du département d’informatique d’Annaba, se penche sur l’utilisation d’algorithmes semi-supervisés pour la détection de tumeur mammaire. Le cancer du sein constitue dans le monde la cause de décès par cancer la plus fréquente chez la femme. En Algérie, le cancer du sein représente près de 50 % des cancers gynécologiques chez la femme. C’est donc une thématique de recherche prioritaire en terme de santé publique.
@@ -40,7 +39,6 @@ Cette article de recherche écrit par des membres du département d’informatiq
 Les systèmes de reconnaissance d’images médicales par algorithmes supervisés nécessitent un grand volume de données acquises qui doivent être labellisées d’une manière précise conduisant à un problème de coût et de présence d’experts. Ces dernières limites ont encouragé l’introduction du paradigme de l’apprentissage semi-supervisé comme outil fiable de classification. Ces chercheurs proposent ici un système d’aide au diagnostic (abrégé en CAD pour Computer Assisted Diagnosis) de cette maladie en se basant d’une manière particulière sur l’utilisation de la technique d’apprentissage semi-supervisé utilisant S3VM qui est l’extension semi-supervisée des SVM. Les performances de ces algorithmes sont qualifiées de « très encourageants » par les rédacteurs de l’article. Le schéma suivant donne le principe général de fonctionnement de l’algorithme, commun à beaucoup d’autres problèmes de classification d’images.
 </p>
 <p align="center"><img src="mammographie.png" alt="mammographie" height="400" width="400"></p>
-
 
 ## Application d'algorithmes semi-supervisés par Amazon Research pour Alexa
 <p style='text-align: justify;'> 
