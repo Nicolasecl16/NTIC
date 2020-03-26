@@ -37,7 +37,14 @@ Dans les problèmes d'apprentissage supervisé traditionnels, on nous présente 
     <mo>=</mo> 
     <msub> 
       <mi>((xi,yi))</mi> 
-      <ms>li=1…l</ms> 
+      <ms>
+        <msub>
+          <mi>l</mi>
+          <ms>i</ms>
+        </msub>
+        <mo>=</mo>
+        <mi>1...l</mi>
+      </ms> 
     </msub>
   </mrow> 
  </math>
