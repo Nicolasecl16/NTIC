@@ -52,14 +52,13 @@ Il existe de nombreux cas où des données non étiquetées peuvent aider à con
 <p style='text-align: justify;'> 
 La figure ci-dessous fournit une autre intuition quant à l'utilisation de données non étiquetées pour la classification. Nous considérons un problème de classification artificielle avec deux classes. Pour les deux classes, 100 échantillons sont tirés d'une distribution gaussienne bidimensionnelle avec des matrices de covariance identiques. L'ensemble de données étiquetées est ensuite construit en prélevant un échantillon de chaque classe. Tout algorithme d'apprentissage supervisé obtiendra très probablement comme limite de décision la ligne continue, qui est perpendiculaire au segment de ligne reliant les deux points de données étiquetés et qui la coupe au milieu. Cependant, ceci est assez loin de la limite de décision optimale. Comme le montre clairement cette figure, les clusters que nous pouvons déduire des données non étiquetées peuvent nous aider considérablement à placer la limite de décision : en supposant que les données proviennent de deux distributions gaussiennes, un simple algorithme d'apprentissage semi-supervisé peut déduire une limite de décision proche de l'optimum.
 </p>
-<p align="center">
 <figure>
   <img src="SLboundary.png" alt="SLboundary" />
   <figcaption>
     Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non       étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
   </figcaption>
 </figure>
-</p>
+
 ## Dans quel cadre l'apprentissage semi-supervisé fonctionne-t-il ?
 <p style='text-align: justify;'> 
 L'objectif premier de l'apprentissage semi-supervisé est d'exploiter des données non étiquetées pour la construction de meilleures procédures d'apprentissage. Il s'avère que ce n'est pas toujours facile, ni même possible. Comme mentionné précédemment, les données non étiquetées ne sont utiles que si elles contiennent des informations utiles pour la prédiction de l'étiquette qui ne sont pas contenues dans les seules données étiquetées ou qui ne peuvent pas en être extraites facilement. Pour appliquer en pratique une méthode d'apprentissage semi-supervisée, l'algorithme doit alors être capable d'extraire ces informations. Pour les ingénieurs et les chercheurs, cela soulève la question suivante : quand est-ce le cas ?
