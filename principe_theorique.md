@@ -81,9 +81,13 @@ Le principal enseignement tiré de ces observations est que l'apprentissage semi
 <p style='text-align: justify;'> 
 Au cours des deux dernières décennies, une grande variété d'algorithmes de classification semi-supervisée a été créée. Ces méthodes diffèrent par les hypothèses d'apprentissage semi-supervisées sur lesquelles elles se fondent, par la manière dont elles utilisent les données non étiquetées et par la façon dont elles se rapportent aux algorithmes supervisés. 
 </p>  
-<p align="center"><img src="arbreclassification.png" alt="arbreclassification" width="700"></p>
-<p style='text-align: justify;'>  
-Légende :Visualisation arborescente des méthodes de classification semi-supervisée. 
+<p align="center">
+  <figure>
+  <img src="arbreclassification.png" alt="arbreclassification" width="700" />
+  <figcaption>
+   Visualisation arborescente des méthodes de classification semi-supervisée.
+  </figcaption>
+</figure>
 </p>
 <p style='text-align: justify;'>
 Chaque feuille de l‘arbre correspond à un type d'approche spécifique pour intégrer des données non étiquetées dans les méthodes de classification. Dans la feuille correspondant aux méthodes transductives, ( méthodes à bases de graphes), les cases en pointillés représentent des phases distinctes du processus de classification, dont chacune présente une multitude de variations.
