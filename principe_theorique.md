@@ -69,6 +69,7 @@ Malheureusement, il s'est avéré difficile de trouver une réponse pratique à 
 <p style='text-align: justify;'>
 Le principal enseignement tiré de ces observations est que l'apprentissage semi-supervisé ne doit pas être considéré comme un moyen garanti d'améliorer les performances de prévision par la simple introduction de données non étiquetées. Il devrait plutôt être considéré comme une autre direction dans le processus de recherche et de configuration d'un algorithme d'apprentissage pour la tâche à accomplir. Les procédures d'apprentissage semi-supervisées devraient faire partie de la série d'algorithmes dont l'utilisation est envisagée dans un scénario d'application particulier, et une combinaison d'analyse théorique  et d'évaluation empirique devrait être utilisée pour choisir une approche bien adaptée à la situation donnée.
 </p>  
+
 ## Présentation des différentes méthodes algorithmiques pour l’apprentissage semi-supervisé
 <p style='text-align: justify;'> 
 Au cours des deux dernières décennies, une grande variété d'algorithmes de classification semi-supervisée a été créée. Ces méthodes diffèrent par les hypothèses d'apprentissage semi-supervisées sur lesquelles elles se fondent, par la manière dont elles utilisent les données non étiquetées et par la façon dont elles se rapportent aux algorithmes supervisés. 
