@@ -61,9 +61,6 @@ La figure ci-dessous fournit une autre intuition quant à l'utilisation de donn�
 </figure>
 </p>
 <p style='text-align: justify;'> 
-  Légende
-Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
-</p>
 
 ## Dans quel cadre l'apprentissage semi-supervisé fonctionne-t-il ?
 
