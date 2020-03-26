@@ -54,7 +54,7 @@ La figure ci-dessous fournit une autre intuition quant à l'utilisation de donn�
 </p>
 <p align="center">
 <figure>
-  <img src=""SLboundary.png"" alt="" />
+  <img src="SLboundary.png" alt="" />
   <figcaption>
     Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non       étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
   </figcaption>
