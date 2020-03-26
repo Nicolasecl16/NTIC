@@ -10,7 +10,8 @@ description: default
 <p style='text-align: justify;'>
 Cette partie présente trois projets mettant en lumière les applications actuelles de l’apprentissage semi-supervisé par différents centre de recherche, avec des objectifs différents. Les deux premiers articles conceptualisent l’apprentissage semi-supervisé comme un moyen d’obtenir des algorithmes performants avec peu de données labellisées. Le dernier article se penche sur un cas où l’emploi de l’apprentissage semi-supervisé permet d’améliorer les performances d’algorithmes existant. En l’occurrence il s’agit de la génération de paraphrases.
 </p>
-## : “FixMatch: Simplifying Semi-Supervised Learning with Consistency and Conﬁdence”, Google Research, Janvier 2019 
+
+## FixMatch: Simplifying Semi-Supervised Learning with Consistency and Conﬁdence”, Google Research, Janvier 2019 
 <p style='text-align: justify;'> 
   Dans cet article, les chercheurs de Google Research démontrent la puissance d'une simple combinaison de deux méthodes SSL courantes : le pseudo-étiquetage, et l’autre nommé « consitency regularization ». L’algorithme créé, FixMatchﬁrst, génère des pseudo-étiquettes en utilisant les prédictions du modèle sur des images non étiquetées « faiblement augmentées ».  L'augmentation faible est une stratégie d'augmentation standard ﬂip-and-shift. Il s’agit ici de faire aléatoirement pivoter les images horizontalement avec une probabilité de 50% sur tous les ensembles de données et translater  aléatoirement les images jusqu'à 12,5% verticalement et horizontalement. 
 </p>
@@ -30,6 +31,7 @@ Les résultats donnent une précision de 94,93 % sur CIFAR-10 avec 250 étiquett
       Tout d'abord, une version faiblement augmentée d'une image non étiquetée (en haut) est introduite dans le modèle pour obtenir ses prédictions (encadré rouge). Lorsque le modèle attribue une probabilité à une classe quelconque qui se situe au-dessus d'un seuil (ligne pointillée), la prédiction est convertie en pseudo-étiquette à un seul point. Ensuite, l’algorithme calcule la "prédiction du modèle pour une version fortement augmentée de la même image" (en bas). Le modèle a été conçu pour que la prédiction de la version fortement augmentée soit comparée à la pseudo-étiquette par une fonction  d'entropie croisée standard. 
     </figcaption>
 </figure>
+  
 ## Utilisation de l’approche semi-supervisée pour la détection du cancer du sein, Université d'Annaba, octobre 2014 
 <p style='text-align: justify;'> 
 Cette article de recherche écrit par des membres du département d’informatique d’Annaba, se penche sur l’utilisation d’algorithmes semi-supervisés pour la détection de tumeur mammaire. Le cancer du sein constitue dans le monde la cause de décès par cancer la plus fréquente chez la femme. En Algérie, le cancer du sein représente près de 50 % des cancers gynécologiques chez la femme. C’est donc une thématique de recherche prioritaire en terme de santé publique.
