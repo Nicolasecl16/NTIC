@@ -52,10 +52,14 @@ Il existe de nombreux cas où des données non étiquetées peuvent aider à con
 <p style='text-align: justify;'> 
 La figure ci-dessous fournit une autre intuition quant à l'utilisation de données non étiquetées pour la classification. Nous considérons un problème de classification artificielle avec deux classes. Pour les deux classes, 100 échantillons sont tirés d'une distribution gaussienne bidimensionnelle avec des matrices de covariance identiques. L'ensemble de données étiquetées est ensuite construit en prélevant un échantillon de chaque classe. Tout algorithme d'apprentissage supervisé obtiendra très probablement comme limite de décision la ligne continue, qui est perpendiculaire au segment de ligne reliant les deux points de données étiquetés et qui la coupe au milieu. Cependant, ceci est assez loin de la limite de décision optimale. Comme le montre clairement cette figure, les clusters que nous pouvons déduire des données non étiquetées peuvent nous aider considérablement à placer la limite de décision : en supposant que les données proviennent de deux distributions gaussiennes, un simple algorithme d'apprentissage semi-supervisé peut déduire une limite de décision proche de l'optimum.
 </p>
+<p align="center">
 <figure>
   <img src=""SLboundary.png"" alt="" />
-  <figcaption>Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non       étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.</figcaption>
+  <figcaption>
+    Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non       étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
+  </figcaption>
 </figure>
+</p>
 <p style='text-align: justify;'> 
   Légende
 Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
