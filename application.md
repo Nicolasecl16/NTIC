@@ -23,7 +23,7 @@ Bien que considéré comme simple par les chercheurs de l’article, FixMatch at
 <p style='text-align: justify;'> 
 Les résultats donnent une précision de 94,93 % sur CIFAR-10 avec 250 étiquettes et une précision de 88,61 % avec 40 - seulement 4 étiquettes par classe. 
 </p>
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+<p align="center"><img src="Googleresearch.png" alt="Googleresearch" width="700"></p>
 <p style='text-align: justify;'> 
 Légende : Tout d'abord, une version faiblement augmentée d'une image non étiquetée (en haut) est introduite dans le modèle pour obtenir ses prédictions (encadré rouge). Lorsque le modèle attribue une probabilité à une classe quelconque qui se situe au-dessus d'un seuil (ligne pointillée), la prédiction est convertie en pseudo-étiquette à un seul point. Ensuite, l’algorithme calcule la "prédiction du modèle pour une version fortement augmentée de la même image" (en bas). Le modèle a été conçu pour que la prédiction de la version fortement augmentée soit comparée à la pseudo-étiquette par une fonction  d'entropie croisée standard. 
 </p>
@@ -34,7 +34,7 @@ Cette article de recherche écrit par des membres du département d’informatiq
 <p style='text-align: justify;'>  
 Les systèmes de reconnaissance d’images médicales par algorithmes supervisés nécessitent un grand volume de données acquises qui doivent être labellisées d’une manière précise conduisant à un problème de coût et de présence d’experts. Ces dernières limites ont encouragé l’introduction du paradigme de l’apprentissage semi-supervisé comme outil fiable de classification. Ces chercheurs proposent ici un système d’aide au diagnostic (abrégé en CAD pour Computer Assisted Diagnosis) de cette maladie en se basant d’une manière particulière sur l’utilisation de la technique d’apprentissage semi-supervisé utilisant S3VM qui est l’extension semi-supervisée des SVM. Les performances de ces algorithmes sont qualifiées de « très encourageants » par les rédacteurs de l’article. Le schéma suivant donne le principe général de fonctionnement de l’algorithme, commun à beaucoup d’autres problèmes de classification d’images.
 </p>
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+<p align="center"><img src="mammographie.png" alt="mammographie" width="700"></p>
 
 ## Application d'algorithmes semi-supervisés par Amazon Research pour Alexa
 <p style='text-align: justify;'> 
