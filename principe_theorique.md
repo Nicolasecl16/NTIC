@@ -92,6 +92,7 @@ Chaque feuille de l‘arbre correspond à un type d'approche spécifique pour in
 <p style='text-align: justify;'>
 Au niveau le plus élevé, elle distingue les méthodes inductives et transductives, qui donnent lieu à des procédures d'optimisation distinctes : les premières tentent de trouver un modèle de classification, tandis que les secondes s'attachent uniquement à obtenir des prédictions étiquetées pour les points de données non étiquetés donnés. Au second niveau, l’arbre distingue les méthodes d'apprentissage semi-supervisées selon la manière lesquelles elles intègrent les données non étiquetées. Cette distinction donne naissance à trois classes distinctes de méthodes inductives, chacune d'entre elles étant liée aux classifieurs supervisés de manière différente.
 </p>
+<p style='text-align: justify;'>
 ### Méthodes inductives
 <p style='text-align: justify;'>
 Les méthodes inductives visent à construire un classifieur qui peut générer des prédictions pour n'importe quel objet dans l'espace d'entrée. Des données non étiquetées peuvent être utilisées lors de la phase d’apprentissage de ce classifieur, mais les prédictions pour de multiples nouveaux exemples, inédits, sont indépendantes les unes des autres une fois l’apprentissage terminé. Cela correspond à l'objectif des méthodes d'apprentissage supervisé : un modèle est construit pendant la phase d’apprentissage et peut ensuite être utilisé pour prédire les étiquettes de nouvelles données.
