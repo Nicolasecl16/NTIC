@@ -34,7 +34,7 @@ Cette article de recherche écrit par des membres du département d’informatiq
 <p style='text-align: justify;'>  
 Les systèmes de reconnaissance d’images médicales par algorithmes supervisés nécessitent un grand volume de données acquises qui doivent être labellisées d’une manière précise conduisant à un problème de coût et de présence d’experts. Ces dernières limites ont encouragé l’introduction du paradigme de l’apprentissage semi-supervisé comme outil fiable de classification. Ces chercheurs proposent ici un système d’aide au diagnostic (abrégé en CAD pour Computer Assisted Diagnosis) de cette maladie en se basant d’une manière particulière sur l’utilisation de la technique d’apprentissage semi-supervisé utilisant S3VM qui est l’extension semi-supervisée des SVM. Les performances de ces algorithmes sont qualifiées de « très encourageants » par les rédacteurs de l’article. Le schéma suivant donne le principe général de fonctionnement de l’algorithme, commun à beaucoup d’autres problèmes de classification d’images.
 </p>
-<p align="center"><img src="mammographie.png" alt="mammographie" height="200" width="200"></p>
+<p align="center"><img src="mammographie.png" alt="mammographie" height="400" width="400"></p>
 
 ## Application d'algorithmes semi-supervisés par Amazon Research pour Alexa
 <p style='text-align: justify;'> 
