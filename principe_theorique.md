@@ -51,15 +51,21 @@ Dans les problèmes d'apprentissage supervisé traditionnels, on nous présente 
  </math>
 Chaque point de données (
 <math>
+  <mrow>
   <msub>
     <mi>x</mi>
-    <ms>i</ms> 
+    <ms>i</ms>
+  </msub>
+  </mrow>
 </math>
 ,
 <math>
+  <mrow>
   <msub>
     <mi>y</mi>
     <ms>i</ms> 
+  </msub>  
+  </mrow> 
 </math>
 ) est constitué d'un objet xi∈X provenant d'un espace d'entrée X donné, et a une étiquette associée yi, où yi est un réel dans les problèmes de régression et une classe dans les problèmes de classification. Sur la base d'un ensemble de ces points de données, généralement appelés données d’apprentissage, les méthodes d'apprentissage supervisé tentent de déduire une fonction qui peut déterminer avec succès l'étiquette y d'une entrée inédite x .
 </p>
