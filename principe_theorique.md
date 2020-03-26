@@ -60,10 +60,7 @@ La figure ci-dessous fournit une autre intuition quant à l'utilisation de donn�
   </figcaption>
 </figure>
 </p>
-
-
 ## Dans quel cadre l'apprentissage semi-supervisé fonctionne-t-il ?
-
 <p style='text-align: justify;'> 
 L'objectif premier de l'apprentissage semi-supervisé est d'exploiter des données non étiquetées pour la construction de meilleures procédures d'apprentissage. Il s'avère que ce n'est pas toujours facile, ni même possible. Comme mentionné précédemment, les données non étiquetées ne sont utiles que si elles contiennent des informations utiles pour la prédiction de l'étiquette qui ne sont pas contenues dans les seules données étiquetées ou qui ne peuvent pas en être extraites facilement. Pour appliquer en pratique une méthode d'apprentissage semi-supervisée, l'algorithme doit alors être capable d'extraire ces informations. Pour les ingénieurs et les chercheurs, cela soulève la question suivante : quand est-ce le cas ?
 </p>
@@ -73,7 +70,6 @@ Malheureusement, il s'est avéré difficile de trouver une réponse pratique à 
 <p style='text-align: justify;'>
 Le principal enseignement tiré de ces observations est que l'apprentissage semi-supervisé ne doit pas être considéré comme un moyen garanti d'améliorer les performances de prévision par la simple introduction de données non étiquetées. Il devrait plutôt être considéré comme une autre direction dans le processus de recherche et de configuration d'un algorithme d'apprentissage pour la tâche à accomplir. Les procédures d'apprentissage semi-supervisées devraient faire partie de la série d'algorithmes dont l'utilisation est envisagée dans un scénario d'application particulier, et une combinaison d'analyse théorique  et d'évaluation empirique devrait être utilisée pour choisir une approche bien adaptée à la situation donnée.
 </p>  
-
 ## Présentation des différentes méthodes algorithmiques pour l’apprentissage semi-supervisé
 <p style='text-align: justify;'> 
 Au cours des deux dernières décennies, une grande variété d'algorithmes de classification semi-supervisée a été créée. Ces méthodes diffèrent par les hypothèses d'apprentissage semi-supervisées sur lesquelles elles se fondent, par la manière dont elles utilisent les données non étiquetées et par la façon dont elles se rapportent aux algorithmes supervisés. 
@@ -92,7 +88,6 @@ Chaque feuille de l‘arbre correspond à un type d'approche spécifique pour in
 <p style='text-align: justify;'>
 Au niveau le plus élevé, elle distingue les méthodes inductives et transductives, qui donnent lieu à des procédures d'optimisation distinctes : les premières tentent de trouver un modèle de classification, tandis que les secondes s'attachent uniquement à obtenir des prédictions étiquetées pour les points de données non étiquetés donnés. Au second niveau, l’arbre distingue les méthodes d'apprentissage semi-supervisées selon la manière lesquelles elles intègrent les données non étiquetées. Cette distinction donne naissance à trois classes distinctes de méthodes inductives, chacune d'entre elles étant liée aux classifieurs supervisés de manière différente.
 </p>
-<p style='text-align: justify;'>
 ### Méthodes inductives
 <p style='text-align: justify;'>
 Les méthodes inductives visent à construire un classifieur qui peut générer des prédictions pour n'importe quel objet dans l'espace d'entrée. Des données non étiquetées peuvent être utilisées lors de la phase d’apprentissage de ce classifieur, mais les prédictions pour de multiples nouveaux exemples, inédits, sont indépendantes les unes des autres une fois l’apprentissage terminé. Cela correspond à l'objectif des méthodes d'apprentissage supervisé : un modèle est construit pendant la phase d’apprentissage et peut ensuite être utilisé pour prédire les étiquettes de nouvelles données.
@@ -109,7 +104,6 @@ Les méthodes de prétraitement non supervisées consistent à, soit extraire de
 <p style='text-align: justify;'>
 La dernière classe de méthodes inductives que nous considérons intègre directement des données non étiquetées dans la fonction d'optimisation de la méthode d'apprentissage. Beaucoup de ces méthodes sont des extensions directes des méthodes d'apprentissage supervisées au cadre semi-supervisé : elles étendent la fonction d’erreur du classifieur supervisé pour inclure des données non étiquetées. Les machines à vecteurs de support semi-supervisées (S3VM), par exemple, étendent les SVM supervisés en maximisant la marge non seulement sur les données étiquetées, mais aussi sur les données non étiquetées. Il existe des extensions intrinsèquement semi-supervisées de nombreuses approches d'apprentissage supervisé importantes, y compris SVM les processus gaussiens et les réseaux de neurones.
 </p>
-
 ### Méthodes  transductives
 <p style='text-align: justify;'>
 Contrairement aux méthodes inductives, les méthodes transductives ne construisent pas un classifieur pour l'ensemble de l'espace d'entrée. Au contraire, leur pouvoir prédictif est limité aux objets qu'elles rencontrent exactement pendant la phase d'entraînement. Par conséquent, les méthodes transductives n'ont pas de phases d'entraînement et de test distinctes. Comme les méthodes d'apprentissage supervisé ne sont par définition pas fournies avec des données non étiquetées avant la phase de test, il n'existe pas d'analogie claire entre les algorithmes transductifs et l'apprentissage supervisé.
@@ -127,7 +121,6 @@ La façon dont apprend l’homme peut être considérée comme des cas d'apprent
 <p style='text-align: justify;'>
 Les nourrissons humains sont sensibles à la structure des catégories naturelles non étiquetées telles que les images de chiens et de chats ou les visages masculins et féminins. Les nourrissons et les enfants prennent en compte non seulement les exemples non étiquetés, mais aussi le processus d'échantillonnage dont découlent les exemples étiquetés
 </p>
-
 <p style='text-align: justify;'>
 On a donc vu en quoi l'apprentissage semi-supervisé s'impose comme une méthode algorithmique essentielle, notamment en vue de limiter la quantité de données à étiqueter. Les bases théoriques que l'on a pu poser au cours de cette section vont nous permettre de comprendre certaines applications actuelles dans des secteurs de pointe.
 </p>
