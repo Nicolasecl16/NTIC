@@ -12,21 +12,13 @@ L’objectif de cette partie est de mettre en lumière le fonctionnement théori
 
 ## Contexte 
 <p style='text-align: justify;'> 
-  salut
-<math>
-  <msqrt>
-    <mn>2</mn>
-  </msqrt>
-</math>
-</p>
-<p style='text-align: justify;'> 
 On a pu voir dans la partie précédente à quel point l’annotation des données revêt une importance stratégique et économique dans le monde de l’IA. Les algorithmes semi-supervisés sont donc d’un grand intérêt dans l’optique d’annoter le mois de données possibles puisque seul une partie de l’ensemble d’entraînement est annoté. On peut également améliorer significativement un algorithme supervisé déjà existant, simplement en ajoutant des données non étiquetés à l’ensemble d’apprentissage. L'apprentissage semi-supervisé est récemment devenu plus populaire et plus pertinent sur le plan pratique en raison de la variété des problèmes pour lesquels de grandes quantités de données non étiquetées sont disponibles, par exemple du texte sur des sites web, des séquences de protéines ou des images
 Ces caractéristiques expliquent certainement la résurgence dans la littérature des techniques d’apprentissage semi-supervisé. L’apprentissage semi-supervisé est ainsi mentionné  parmi les 10 tendances technologiques de 2020 identifiées par le monde informatique.
 </p>
 <p style='text-align: justify;'> 
 Le tableau suivant propose un comparatif simple des méthodes d’apprentissage supervisés, semi-supervisés, et non supervisés. Cela permet de situer très grossièrement l’apprentissage semi-supervisé parmi les techniques d’apprentissage automatique actuelles.
 </p>
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+<p align="center"><img src="SSLvs.png" alt="SSLvs" width="700"></p>
 
 ## Présentation introductive 
 <p style='text-align: justify;'> 
@@ -60,7 +52,7 @@ Il existe de nombreux cas où des données non étiquetées peuvent aider à con
 <p style='text-align: justify;'> 
 La figure ci-dessous fournit une autre intuition quant à l'utilisation de données non étiquetées pour la classification. Nous considérons un problème de classification artificielle avec deux classes. Pour les deux classes, 100 échantillons sont tirés d'une distribution gaussienne bidimensionnelle avec des matrices de covariance identiques. L'ensemble de données étiquetées est ensuite construit en prélevant un échantillon de chaque classe. Tout algorithme d'apprentissage supervisé obtiendra très probablement comme limite de décision la ligne continue, qui est perpendiculaire au segment de ligne reliant les deux points de données étiquetés et qui la coupe au milieu. Cependant, ceci est assez loin de la limite de décision optimale. Comme le montre clairement cette figure, les clusters que nous pouvons déduire des données non étiquetées peuvent nous aider considérablement à placer la limite de décision : en supposant que les données proviennent de deux distributions gaussiennes, un simple algorithme d'apprentissage semi-supervisé peut déduire une limite de décision proche de l'optimum.
 </p>
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+<p align="center"><img src="SLboundary.png" alt="SLboundary" width="700"></p>
 <p style='text-align: justify;'> 
   Légende
 Un exemple de base de classification binaire en présence de données non étiquetées. Les points de données non étiquetés sont colorés en fonction de leur véritable étiquette. Les cercles colorés et non remplis représentent les courbes de niveau de la distribution des données d'entrée correspondant aux écarts types de 1, 2 et 3.
@@ -82,7 +74,7 @@ Le principal enseignement tiré de ces observations est que l'apprentissage semi
 <p style='text-align: justify;'> 
 Au cours des deux dernières décennies, une grande variété d'algorithmes de classification semi-supervisée a été créée. Ces méthodes diffèrent par les hypothèses d'apprentissage semi-supervisées sur lesquelles elles se fondent, par la manière dont elles utilisent les données non étiquetées et par la façon dont elles se rapportent aux algorithmes supervisés. 
 </p>  
-<p align="center"><img src="img_rast.png" alt="img_rast" width="700"></p>
+<p align="center"><img src="arbreclassification.png" alt="arbreclassification" width="700"></p>
 <p style='text-align: justify;'>  
 Légende :Visualisation arborescente des méthodes de classification semi-supervisée. 
 </p>
