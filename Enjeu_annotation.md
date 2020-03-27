@@ -42,23 +42,24 @@ Selon une analyse de Cognilytica, plus de 80% du temps consacré aux projets en 
 <p align="center"><img src="TempsMLproject.png" alt="TempsMLproject" width="700"></p>
 
 <p style='text-align: justify;'> 
-  Selon un récent rapport de la société de recherche Cognilytica, plus de 35 entreprises fournissent actuellement de la main d’œuvre  pour ajouter des labels aux données afin d'alimenter les algorithmes d'apprentissage supervisé. Certaines de ces entreprises utilisent des approches générales d'étiquetage des données, tandis que d'autres font appel à leurs propres ressources humaines, gérées et formées, qui peuvent répondre à un large éventail de besoins généraux et spécifiques en matière d'étiquetage des données.  
+  Toujours selon la société de recherche Cognilytica, un récent rapport révèle que plus de 35 entreprises fournissent actuellement de la main d’œuvre  pour ajouter des labels aux données afin d'alimenter les algorithmes d'apprentissage supervisé. Certaines de ces entreprises utilisent des approches générales d'étiquetage des données, tandis que d'autres font appel à leurs propres ressources humaines, gérées et formées, qui peuvent répondre à un large éventail de besoins généraux et spécifiques en matière d'étiquetage des données.  
 </p>
 
 ## Le service en étiquetage de données, un secteur en pleine expansion
 
 <p style='text-align: justify;'>
 L’émergence de l’IA et son omniprésence dans nos vies sont souvent sujettes à de nombreuses réserves. Une crainte majeure concernant la généralisation de l’IA est que non seulement les emplois disparaissent, mais que cette disparition affecte de manière disproportionnée les travailleurs peu qualifiés. Cela signifierait que tous les emplois nouvellement créés aillent à une élite d'employés de technologie tels que les développeurs de logiciels, les chercheurs en IA et les experts en cybersécurité.
-Selon Guru Banavar, le chef de l'équipe d'IBM responsable de la création de Watson, l’une des IA les plus perfectionnées au monde, a déclaré récemment que ce ne sera pas nécessairement le cas.
+Guru Banavar, le chef de l'équipe d'IBM responsable de la création de Watson, l’une des IA les plus perfectionnées au monde, a déclaré récemment que ce ne sera pas nécessairement le cas.
 </p>  
 <p style='text-align: justify;'> 
-Banavar pense qu'il y aura "toutes sortes d'emplois disponibles" à l'ère de l'IA. Pour les travailleurs de tous les niveaux de compétences. Et pour les travailleurs moins qualifiés, l'informatique offre un nouveau champ de possibilités. 
-Selon Banavar, c’est l’étiquetage de données qui sera le nouveau métier ouvrier du numérique,  et déclare ainsi « labellisation is the new blue-collar job ». Il appuie les conclusions présentées dans le graphique précédent et affirme ainsi « Si vous regardez les travaux d'analyse compliqués que nous avons aujourd'hui, 70% de ce travail consiste probablement à organiser et à nettoyer les données ».
+Banavar pense qu'il y aura "toutes sortes d'emplois disponibles" à l'ère de l'IA, et pour les travailleurs de tous les niveaux de compétences. Et pour les travailleurs moins qualifiés, l'informatique offre un nouveau champ de possibilités. 
+Selon Banavar, c’est l’étiquetage de données qui sera le nouveau métier ouvrier du numérique,  et déclare ainsi « labellisation is the new blue-collar job ». Il appuie les conclusions présentées dans le graphique précédent et affirme ainsi : « Si vous regardez les travaux d'analyse compliqués que nous avons aujourd'hui, 70% de ce travail consiste probablement à organiser et à nettoyer les données ».
 </p>  
 <p style='text-align: justify;'>  
 Selon le rapport de Cognilytica, la demande de services d'étiquetage de données par des tiers passera de 1,7 milliard de dollars (USD) en 2019 à plus de 4,1 milliards de dollars en 2024. Il s'agit d'un marché important, très éloigné de ce que l’on imagine en tant que futur de l’IA.
 L'étiquetage des données pour l'apprentissage machine a donné naissance à une toute nouvelle industrie, et les sociétés qui se créent pour aider les entreprises à étiqueter leurs données font partie des investissements les plus populaires auprès des investisseurs en capital-risque qui espèrent tirer profit de la ruée vers l'or actuelle de l'I.A.
 </p>
+<p align="center"><img src="TempsMLproject.png" alt="TempsMLproject" width="700"></p>
 <p style='text-align: justify;'>
 De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure, augurant un futur très prometteur pour le secteur. Ceci explique la comparaison précédente issue du journal Fortune (Baker Hughes étant une entreprise parapétrolière américaine aujourd’hui valorisée à plusieurs dizaines de milliards de dollars)
 Parmi ces entreprises, on peut citer  Labelbox, qui vient de lever 39 millions de dollars au cours de son second tour de financement.
