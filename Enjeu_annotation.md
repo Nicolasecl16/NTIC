@@ -59,7 +59,7 @@ Selon Banavar, c’est l’étiquetage de données qui sera le nouveau métier o
 Selon le rapport de Cognilytica, la demande de services d'étiquetage de données par des tiers passera de 1,7 milliard de dollars (USD) en 2019 à plus de 4,1 milliards de dollars en 2024. Il s'agit d'un marché important, très éloigné de ce que l’on imagine en tant que futur de l’IA.
 L'étiquetage des données pour l'apprentissage machine a donné naissance à une toute nouvelle industrie, et les sociétés qui se créent pour aider les entreprises à étiqueter leurs données font partie des investissements les plus populaires auprès des investisseurs en capital-risque qui espèrent tirer profit de la ruée vers l'or actuelle de l'I.A.
 </p>
-<p align="center"><img src="bakerhughes.png" alt="bakerhughes" width="700"></p>
+<p align="center"><img src="bakerhughes.PNG" alt="bakerhughes" width="700"></p>
 <p style='text-align: justify;'>
 De nombreuses start-ups du milieu font aujourd’hui des levées de fond de grande envergure, augurant un futur très prometteur pour le secteur. Ceci explique la comparaison précédente issue du journal Fortune (Baker Hughes étant une entreprise parapétrolière américaine aujourd’hui valorisée à plusieurs dizaines de milliards de dollars)
 Parmi ces entreprises, on peut citer  Labelbox, qui vient de lever 39 millions de dollars au cours de son second tour de financement.
